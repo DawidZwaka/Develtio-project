@@ -7,4 +7,4 @@
     <?php wp_head() ?>
 </head>
 <body>
-    <?php get_template_part("templates/navbar") ?>
+    <?php get_template_part("template-parts/navbar") ?>
