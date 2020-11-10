@@ -3,40 +3,36 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
+//common
 $blue: #1c3e95;
 $orange: #fe7a22;
-
 $primary: $blue;
 $secondary: $orange;
 
-$headings-color: $blue;
-
 $text-muted: rgba(#161616, 0.5);
+$font-family-base: 'Lato';
 
 $border-radius: 10px;
 
-$spacer: 1rem;
-$spacers: ();
-$spacers: map-merge(
-	(
-		0: 0,
-		1: (
-			$spacer * 0.25,
-		),
-		2: (
-			$spacer * 0.5,
-		),
-		3: $spacer,
-		4: (
-			$spacer * 1.5,
-		),
-		5: (
-			$spacer * 3,
-		),
-	),
-	$spacers
-);
+$small-font-size: 13px !important;
 
+//grid
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+) !default;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1180px,
+) !default;
+
+//headings
 $h1-font-size: 59px;
 $h2-font-size: 49px;
 $h3-font-size: 32px;
@@ -44,14 +40,16 @@ $h4-font-size: 30px;
 $h5-font-size: 23px;
 $h6-font-size: 19px;
 $headings-font-weight: 700;
+$headings-font-family: 'Quicksand';
+$headings-color: $blue;
 
-$small-font-size: 13px !important;
-
+//form inputs
 $form-group-margin-bottom: 0.75rem;
 $input-border-radius: 0;
 $input-border-color: #979494;
 $custom-checkbox-indicator-border-radius: 0;
 $custom-control-indicator-border-color: #979494;
 
+//navbar
 $navbar-light-color: $primary;
 $navbar-light-hover-color: $secondary;

@@ -64,7 +64,7 @@ $section_2_img_src = $root . 'section_2_bg.png';
 			<img class='img-fluid d-block w-50' src=<?php echo $section_2_img_src ?> alt='' />
 		</div>
 		<div class='container mx-auto'>
-			<div class='d-flex flex-column my-5 col-md-12 col-lg-11 col-xl-9'>
+			<div class='d-flex px-0 flex-column my-5 col-md-12 col-lg-11 col-xl-9'>
 				<h1 class='mb-3'>Ubezpieczenia majątkowe</h1>
 				<h3 class='mb-3'>Co obejmują?</h3>
 				<strong class='mb-3'>

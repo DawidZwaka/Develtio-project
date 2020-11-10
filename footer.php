@@ -1,2 +1,3 @@
 	<?php get_template_part("templates/footer", "modules") ?>
-	</body>
+	<?php wp_footer() ?>
+</body>
