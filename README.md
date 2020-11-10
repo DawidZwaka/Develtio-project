@@ -25,3 +25,6 @@ odp. 2 - Tak właściwie to zależy od tego co dokładnie chcielibyśmy udostęp
 odp. 3 - W pierwszej kolejności należy użyć funkcji register_nav_menu, aby dodać wspierane lokalizacje przez nasz motyw. Kolejnym krokiem jest wykonanie funkcji wp_nav_menu w szablonie z odpowiednimi parametrami, aby wyświetlić dane menu na stronie.
 
 odp. 4 - Całkowity czas potrzebny na stworzenie projektu wraz z konfiguracją gulpa to ok. 7h.
+
+
+PS nie napotkałem żadnych większych problemów :)
