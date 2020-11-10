@@ -12,6 +12,8 @@ Motyw posiada wsparcie dla loga oraz 4 pozycji menu definiowanych prosto z Wordp
     
 4.  Ile zajęło Ci wdrożenie tego projektu? Podaj prawdziwą wartość, jesteśmy programistami, wiemy ile to może potencjalnie zająć, wiemy, że czasami można się na czymś zablokować, pisz szczerze :)
 
+### odpowiedzi
+
 odp. 1 - Do formularza kontaktowego można wykorzystać m.in. plugin Contact Form 7 lub skorzystać z API Wordpressa i spróbować napisać coś samodzielnie :)
 
 odp. 2 - Tak właściwie to zależy od tego co dokładnie chcielibyśmy udostępnić. Możliwości jest wiele m.in: 
